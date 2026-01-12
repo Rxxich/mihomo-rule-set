@@ -1,0 +1,204 @@
+payload:
+  # Anti-Cheat Expert
+  - PROCESS-NAME,SGuard64.exe
+  - PROCESS-NAME,SGuardSvc64.exe
+  - PROCESS-NAME,SGuardUpdate64.exe
+  - PROCESS-NAME,ACE-Service64.exe
+  
+  # BattleBit EAC
+  - PROCESS-NAME,BattleBitEAC.exe
+  - PROCESS-NAME-REGEX,BattleBit.*
+  
+  # BattleEye 
+  - PROCESS-NAME,BEService.exe
+  - PROCESS-NAME,EscapeFromTarkovArena_BE.exe
+  - PROCESS-NAME,EscapeFromTarkov_BE.exe
+  - PROCESS-NAME,TslGame_BE.exe
+
+  # Easy Anti-Cheat
+  - PROCESS-NAME,EasyAntiCheat.exe
+  - PROCESS-NAME,EasyAntiCheat_EOS.exe
+  - PROCESS-NAME,start_protected_game.exe
+
+  # Denuvo
+  - PROCESS-NAME,denuvo-anti-cheat-update-service.exe
+
+  # Vanguard Anti-Cheat (Valorant, League of Legends)
+  - PROCESS-NAME,vgc.exe
+  - PROCESS-NAME,vgm.exe
+  - PROCESS-NAME-REGEX,(?i).*vanguard.*
+
+  # FaceIT AC
+  - PROCESS-NAME,faceitservice.exe
+  - PROCESS-NAME,faceitclient.exe  
+  
+  # ВПН и всякие Anydesk, Rustdesk, Teamviewer в директ
+  - PROCESS-NAME-REGEX,(?i).*tailscale.*
+  - PROCESS-NAME-REGEX,(?i).*wireguard.*
+  - PROCESS-NAME-REGEX,(?i).*netbird.*
+  - PROCESS-NAME-REGEX,(?i).*anydesk.*
+  - PROCESS-NAME-REGEX,(?i).*rustdesk.*
+  - PROCESS-NAME-REGEX,(?i).*teamviewer.*
+
+  # Battle.net and Blizzard
+  - PROCESS-NAME,Agent.exe
+  - PROCESS-NAME,Battle.net-Setup.exe
+  - PROCESS-NAME,Battle.net.exe
+  - PROCESS-NAME,BlizzardBrowser.exe
+  - PROCESS-NAME,Diablo IV.exe
+  - PROCESS-NAME,Hearthstone.exe
+  - PROCESS-NAME,Overwatch.exe
+  #- PROCESS-NAME,Wow.exe
+  #- PROCESS-NAME,WowClassic.exe
+  #- PROCESS-NAME,WowVoiceProxy.exe
+
+  # Battlefield 6
+  - PROCESS-NAME,bf6.exe
+
+  # POE
+  - PROCESS-NAME,PathOfExile.exe
+  - PROCESS-NAME,PathOfExile2Installer.exe
+  - PROCESS-NAME,PathOfExileSteam.exe
+  - PROCESS-NAME,PathOfExile_x64.exe
+  - PROCESS-NAME,PathOfExile_x64Steam.exe
+
+  # OBS
+  - PROCESS-NAME,obs64.exe
+  
+  # Unreal Engine games
+  - PROCESS-NAME-REGEX,(?i).*Win64-Shipping.*
+
+  # Aimbeast
+  - PROCESS-NAME-REGEX,Aimbeast.* 
+
+  # Among Us
+  - PROCESS-NAME,Among Us.exe
+
+  # Apex Legends
+  - PROCESS-NAME,ApexLauncher.exe # Launcher
+  - PROCESS-NAME,r5apex_dx12.exe # Apex Legends (DX12)
+
+  # Content Warning
+  - PROCESS-NAME,Content Warning.exe
+
+  # Counter-Strike 2
+  - PROCESS-NAME,cs2.exe
+  
+  # Steam
+  - PROCESS-NAME-REGEX,(?i).*steam.*
+
+  # Party Animals
+  - PROCESS-NAME,PartyAnimals.exe
+
+  # PEAK
+  - PROCESS-NAME,PEAK.exe
+
+  # PUBG (PlayerUnknown's Battlegrounds)
+  - PROCESS-NAME,ExecPubg.exe # Launcher
+  - PROCESS-NAME-REGEX,TslGame.* # Game
+  - PROCESS-NAME,TslGame_ZK.exe
+  - PROCESS-NAME,zksvc.exe
+  - PROCESS-NAME,BEService.exe
+
+  # Minecraft
+  - PROCESS-NAME,javaw.exe # Minecraft (Java Edition)
+  - PROCESS-NAME,Minecraft.exe  # Minecraft (Bedrock Edition)
+
+  # FragPunk
+  - PROCESS-NAME,FragPunk.exe
+
+  # Dead by Daylight
+  - PROCESS-NAME-REGEX,DeadByDaylight.*
+
+  # Dota 2
+  - PROCESS-NAME,dota2.exe
+
+  # Deadlock
+  - PROCESS-NAME,deadlock.exe
+
+  # GTA V (online + other multiplayer solutions)
+  - PROCESS-NAME-REGEX,.*GTA5.* # GTA V / Online
+  - PROCESS-NAME,altv.exe # alt:V (Majestic RP)
+  - PROCESS-NAME,altv-webengine.exe # alt:V webengine (Majestic RP)
+  - PROCESS-NAME,FiveM.exe # FiveM
+  - PROCESS-NAME-REGEX,(?i).*ragemp.* # RageMP
+  - PROCESS-NAME-REGEX,(?i).*Majestic.* # Majestic RP
+  - PROCESS-NAME-REGEX,(?i).*Rockstar.* # Rockstar Games Launcher
+  - PROCESS-NAME-REGEX,(?i).*SocialClub.* # Rockstar Social Club
+
+  # Arma Reforger
+  - PROCESS-NAME,ArmaReforgerSteam.exe
+  - PROCESS-NAME,ArmaReforgerSteamDiag.exe
+  - PROCESS-NAME,ArmaReforger_BE.exe
+
+  # Team Fortress 2
+  - PROCESS-NAME,tf.exe
+  - PROCESS-NAME,tf_win64.exe
+
+  # Half-Life 2
+  - PROCESS-NAME,hl2.exe
+
+  # Rainbow Six Siege
+  - PROCESS-NAME,RainbowSix.exe
+
+  # osu!
+  - PROCESS-NAME,osu!.exe
+
+  # Quaver
+  - PROCESS-NAME,Quaver.exe
+
+  # Valorant
+  - PROCESS-NAME,VALORANT-Win64-Shipping.exe
+
+  # HELLDIVERS 2
+  - PROCESS-NAME,helldivers2.exe
+  - PROCESS-NAME,crs-handler.exe # Crash reports
+
+  # Hunt: Showdown
+  - PROCESS-NAME,HuntGame.exe
+
+  # THE FINALS
+  - PROCESS-NAME,Discovery.exe
+  - PROCESS-NAME,Discovery-d.exe
+
+  # Rust
+  - PROCESS-NAME-REGEX,(?i).*RustClient.*
+
+  # Skate
+  - PROCESS-NAME,skate.exe
+
+  # Escape from Tarkov
+  - PROCESS-NAME,BsgLauncher.exe
+  - PROCESS-NAME-REGEX,EscapeFromTarkov.*
+  - PROCESS-NAME,EscapeFromTarkovArena.exe
+
+  # Arena Breakout: Infinite
+  - PROCESS-NAME,UAGame.exe
+
+  # Marvel Rivals
+  - PROCESS-NAME,MarvelRivals_Launcher.exe
+  - PROCESS-NAME,Marvel-Win64-Shipping.exe
+
+  # Phasmophobia
+  - PROCESS-NAME,Phasmophobia.exe
+
+  # HoYoverse
+  - PROCESS-NAME,GenshinImpact.exe
+  - PROCESS-NAME,ZenlessZoneZero.exe
+  - PROCESS-NAME,StarRail.exe
+  - PROCESS-NAME,BH3.exe
+  - PROCESS-NAME,ZFGameBrowser.exe # In-game webview
+  - PROCESS-NAME,HYUpdater.exe
+  - PROCESS-NAME,HYPHelper.exe
+  - PROCESS-NAME,HYP.exe
+
+  # Umamusume: Pretty Derby
+  - PROCESS-NAME,UmamusumePrettyDerby.exe
+
+  # Wuthering Waves
+  - PROCESS-NAME,Wuthering Waves.exe
+  - PROCESS-NAME,KRWebView.exe # In-game webview
+  - PROCESS-NAME,KRSDKExternal.exe
+
+  # Secure Digital Input/Output
+  - PROCESS-NAME-REGEX,(?i)SDIO

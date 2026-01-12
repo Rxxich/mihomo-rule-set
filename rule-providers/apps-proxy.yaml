@@ -1,0 +1,6 @@
+payload:
+  - PROCESS-NAME,Overwolf.exe
+  - PROCESS-NAME,Curseforge.exe
+  - PROCESS-NAME,WowUp.exe
+  - PROCESS-NAME,REPO.exe
+  - PROCESS-NAME-REGEX,.*Spotify*

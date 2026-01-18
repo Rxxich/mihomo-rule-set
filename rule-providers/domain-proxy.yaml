@@ -29,6 +29,7 @@ payload:
   - DOMAIN-SUFFIX,tiktok-cdn.eu
   - DOMAIN-SUFFIX,cdninstagram.eu
   - DOMAIN-SUFFIX,moengage.com
+  - DOMAIN-SUFFIX,simplearmory.com
   - DOMAIN-KEYWORD,yummy-anime
   - DOMAIN-KEYWORD,animeportal
   - DOMAIN-KEYWORD,warcraftlogs

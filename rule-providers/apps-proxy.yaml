@@ -3,5 +3,4 @@ payload:
   - PROCESS-NAME,Curseforge.exe
   - PROCESS-NAME,WowUp.exe
   - PROCESS-NAME,REPO.exe
-  - PROCESS-NAME,Telegram.exe
   - PROCESS-NAME-REGEX,.*Spotify*

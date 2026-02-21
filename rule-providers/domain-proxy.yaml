@@ -30,6 +30,8 @@ payload:
   - DOMAIN-SUFFIX,cdninstagram.eu
   - DOMAIN-SUFFIX,moengage.com
   - DOMAIN-SUFFIX,simplearmory.com
+  - DOMAIN-SUFFIX,kinobox.tv
   - DOMAIN-KEYWORD,yummy-anime
   - DOMAIN-KEYWORD,animeportal
   - DOMAIN-KEYWORD,warcraftlogs
+

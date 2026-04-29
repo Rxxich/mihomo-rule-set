@@ -32,6 +32,8 @@ payload:
   - DOMAIN-SUFFIX,simplearmory.com
   - DOMAIN-SUFFIX,kinobox.tv
   - DOMAIN-SUFFIX,lorrgs.io
+  - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,onlyfans.com
   - DOMAIN-KEYWORD,yummy-anime
   - DOMAIN-KEYWORD,animeportal
   - DOMAIN-KEYWORD,warcraftlogs

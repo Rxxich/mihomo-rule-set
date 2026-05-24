@@ -1,9 +1,12 @@
 payload:
+  - DOMAIN-SUFFIX,ua
   - DOMAIN-SUFFIX,lib.social
   - DOMAIN-SUFFIX,jut.su
   - DOMAIN-SUFFIX,kara.su
   - DOMAIN-SUFFIX,tvrain.ru
+  - DOMAIN-SUFFIX,echo.msk.ru
   - DOMAIN-SUFFIX,snob.ru
+  - DOMAIN-SUFFIX,natribu.org
   - DOMAIN-SUFFIX,amazonaws.com
   - DOMAIN-SUFFIX,sfx.ovh
   - DOMAIN-SUFFIX,ovh.com
@@ -37,4 +40,8 @@ payload:
   - DOMAIN-KEYWORD,yummy-anime
   - DOMAIN-KEYWORD,animeportal
   - DOMAIN-KEYWORD,warcraftlogs
+  - DOMAIN-KEYWORD,yummyanime
+  - DOMAIN-KEYWORD,animedub
+  - DOMAIN-KEYWORD,animelib
+  - DOMAIN-KEYWORD,ikianime
 

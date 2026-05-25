@@ -523,10 +523,9 @@ rules:
   - RULE-SET,blizzard,DIRECT
   - RULE-SET,bybit,DIRECT
   - RULE-SET,game-download-domain,DIRECT
-  - DOMAIN,2ip.ru,DIRECT
 
-  # Списки РУ приложений от Legiz
   - RULE-SET,ru-apps,🏠 RU сайты
+  - RULE-SET,ru-inline,🏠 RU сайты
 
   # Определялки IP пускаем в прокси, чтобы пользователь видел
   - DOMAIN,flclashx.app,♻️ Авто VPN
@@ -585,7 +584,6 @@ rules:
   - RULE-SET,trigger,♻️ Авто VPN
 
   # РУ-сайты по умолчанию в DIRECT
-  - RULE-SET,ru-inline,🏠 RU сайты
   - RULE-SET,geosite-ru-full,🏠 RU сайты  
   - RULE-SET,geoip-for-ru,🏠 RU сайты
 

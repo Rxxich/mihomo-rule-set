@@ -454,6 +454,8 @@ rule-providers:
   ru-inline:
     type: inline
     payload:
+      - DOMAIN-SUFFIX,2ipcore.com
+      - DOMAIN-SUFFIX,2ip.io
       - DOMAIN-SUFFIX,2ip.ru
       - DOMAIN-SUFFIX,yastatic.net
       - DOMAIN-SUFFIX,yandex.net
@@ -466,6 +468,7 @@ rule-providers:
       - DOMAIN-SUFFIX,avira.com
       - DOMAIN-SUFFIX,ru
       - DOMAIN-SUFFIX,su
+      - DOMAIN-SUFFIX,kz
       - DOMAIN-SUFFIX,by
       - DOMAIN-SUFFIX,ru.com
       - DOMAIN-SUFFIX,ru.net
@@ -517,6 +520,7 @@ rules:
   # Сервисы которые нужно пускать в DIRECT
   - RULE-SET,twitch-direct,DIRECT
   - RULE-SET,twitch-ads,DIRECT
+  - DOMAIN-SUFFIX,hls.live-video.net,♻️ Авто VPN
   - DOMAIN-SUFFIX,playlist.ttvnw.net,♻️ Авто VPN
   - RULE-SET,telemetry-battlenet,DIRECT
   - RULE-SET,blizzard,DIRECT
@@ -535,8 +539,6 @@ rules:
   - DOMAIN,ip-api.com,♻️ Авто VPN
   - DOMAIN,ipinfo.io,♻️ Авто VPN
   - DOMAIN,api.ip.sb,♻️ Авто VPN
-  - DOMAIN,2ip.io,♻️ Авто VPN
-  - DOMAIN,2ipcore.com,♻️ Авто VPN
 
   # Rezka
   - RULE-SET,rezka-riga,🎬 Rezka Chain

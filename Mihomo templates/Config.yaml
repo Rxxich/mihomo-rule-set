@@ -520,7 +520,6 @@ rules:
   # Сервисы которые нужно пускать в DIRECT
   - RULE-SET,twitch-direct,DIRECT
   - RULE-SET,twitch-ads,DIRECT
-  - DOMAIN-SUFFIX,hls.live-video.net,♻️ Авто VPN
   - DOMAIN-SUFFIX,playlist.ttvnw.net,♻️ Авто VPN
   - RULE-SET,telemetry-battlenet,DIRECT
   - RULE-SET,blizzard,DIRECT

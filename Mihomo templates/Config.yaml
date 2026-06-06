@@ -154,7 +154,7 @@ proxies:
 
 proxy-groups:
   - name: ♻️ Авто VPN
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin.png
+    icon: https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/azure-workspace-gateway/default.svg
     type: select
     remnawave:
       include-proxies: true
@@ -162,7 +162,7 @@ proxy-groups:
       - 🎲 Случайный сервер
       - 📴 Выкл
   - name: 🌐 Глобальный VPN (на все)
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
+    icon: https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/azure-azure-cosmos-db/default.svg
     type: select
     remnawave:
       include-proxies: true
@@ -180,7 +180,7 @@ proxy-groups:
       - 🇱🇻 Riga
       - 🇸🇪 Stockholm
   - name: 💬 Мессенджеры
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/WeChat.png
+    icon: https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/azure-data-share-invitations/default.svg
     type: select
     remnawave:
       include-proxies: true
@@ -188,21 +188,21 @@ proxy-groups:
       - ♻️ Авто VPN
       - 📴 Выкл
   - name: ▶️ YouTube
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
+    icon: https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/azure-azure-video-indexer/default.svg
     type: select
     remnawave:
       include-proxies: true
     proxies:
       - ♻️ Авто VPN
   - name: 🤖 AI
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png
+    icon: https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/azure-azure-openai/default.svg
     type: select
     remnawave:
       include-proxies: true
     proxies:
       - ♻️ Авто VPN
   - name: 🏠 RU сайты
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Russia.png
+    icon: https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/azure-web-application-firewall-policies-waf/default.svg
     type: select
     remnawave:
       include-proxies: false
@@ -216,7 +216,7 @@ proxy-groups:
     proxies:
       - ♻️ Авто VPN
   - name: 🎲 Случайный сервер # для выдачи случайного хоста необходимо отдавать список хостов в подписке в случайном порядке
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Round_Robin_1.png
+    icon: https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/moleculer/default.svg
     type: fallback
     interval: 300
     remnawave:

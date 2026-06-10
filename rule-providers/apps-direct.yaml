@@ -20,9 +20,6 @@ payload:
   - PROCESS-NAME,EasyAntiCheat_EOS.exe
   - PROCESS-NAME,start_protected_game.exe
 
-  # Denuvo
-  - PROCESS-NAME,denuvo-anti-cheat-update-service.exe
-
   # Vanguard Anti-Cheat (Valorant, League of Legends)
   - PROCESS-NAME,vgc.exe
   - PROCESS-NAME,vgm.exe

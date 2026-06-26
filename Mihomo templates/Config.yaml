@@ -415,7 +415,7 @@ rule-providers:
     path: ./provider/rule-set/geo/geosite/whatsapp.mrs
   game-download-domain:
     <<: *rp_domain
-    url: https://github.com/UnderGut/mihomo-rule-set/raw/refs/heads/main/dist/game/game-download_domain.mrs
+    url: https://github.com/Rxxich/mihomo-rule-set/raw/refs/heads/main/rule-providers/game-download_domain.mrs
     path: ./provider/rule-set/geo/geosite/game-download-domain.mrs
   blizzard:
     <<: *rp_domain

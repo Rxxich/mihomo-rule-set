@@ -17,6 +17,8 @@ x-anchors:
     - fc00::/7
     - fe80::/10
     - ff00::/8
+    - ::1/128
+    - 2001:db8::/32
 
   dns_ru: &dns_ru
     - https://77.88.8.8/dns-query
@@ -56,7 +58,7 @@ enable-process: true
 find-process-mode: always
 mode: rule
 log-level: info
-ipv6: false
+ipv6: true
 keep-alive-interval: 30
 unified-delay: true
 external-controller: 127.0.0.1:9090
@@ -100,7 +102,7 @@ dns:
   prefer-h3: false
   use-hosts: true
   use-system-hosts: true
-  ipv6: false #true - если хотите резолвить в ipv6
+  ipv6: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
@@ -180,7 +182,7 @@ proxy-groups:
     remnawave:
       include-proxies: false
     proxies:
-      - 🇱🇻 Riga
+      - 🇵🇱 Wrocław
       - 🇸🇪 Stockholm
   - name: 💬 Мессенджеры
     icon: https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/azure-data-share-invitations/default.svg
@@ -540,7 +542,7 @@ rules:
   - DOMAIN,ipapi.co,♻️ Авто VPN
   - DOMAIN,ident.me,♻️ Авто VPN
   - DOMAIN,ip-api.com,♻️ Авто VPN
-  - DOMAIN,ipinfo.io,♻️ Авто VPN
+  - DOMAIN-SUFFIX,ipinfo.io,♻️ Авто VPN
   - DOMAIN,api.ip.sb,♻️ Авто VPN
 
   # Rezka

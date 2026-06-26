@@ -27,8 +27,6 @@ payload:
   - DOMAIN-SUFFIX,photonengine.com
   - DOMAIN-SUFFIX,exitgames.com
   - DOMAIN-SUFFIX,codefusion.technology
-  - DOMAIN-SUFFIX,faceit.com
-  - DOMAIN-SUFFIX,faceit-cdn.net
   - DOMAIN-SUFFIX,tiktok-cdn.eu
   - DOMAIN-SUFFIX,cdninstagram.eu
   - DOMAIN-SUFFIX,moengage.com

@@ -1,24 +1,11 @@
 x-anchors:
   reserved_ips: &reserved_ips
-    - 0.0.0.0/8
-    - 10.0.0.0/8
-    - 100.64.0.0/10
     - 127.0.0.0/8
-    - 169.254.0.0/16
+    - 10.0.0.0/8
     - 172.16.0.0/12
-    - 192.0.0.0/24
-    - 192.0.2.0/24
-    - 192.88.99.0/24
     - 192.168.0.0/16
-    - 198.51.100.0/24
-    - 203.0.113.0/24
-    - 224.0.0.0/3
-    - ::/127
-    - fc00::/7
-    - fe80::/10
-    - ff00::/8
     - ::1/128
-    - 2001:db8::/32
+    - fc00::/7
 
   dns_ru: &dns_ru
     - https://77.88.8.8/dns-query
@@ -84,7 +71,6 @@ sniffer:
     QUIC:
       ports:
         - 443
-  skip-dst-address: *reserved_ips
 
 tun:
   enable: true
@@ -95,14 +81,13 @@ tun:
     - any:53
     - tcp://any:53
   strict-route: true
-  route-exclude-address: *reserved_ips
 
 dns:
   enable: true
   prefer-h3: false
   use-hosts: true
   use-system-hosts: true
-  ipv6: true
+  ipv6: true #true - если хотите резолвить в ipv6
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
@@ -213,6 +198,7 @@ proxy-groups:
       include-proxies: false
     proxies:
       - 📴 Выкл
+      - 🇷🇺 Moscow
   - name: PROXY
     remnawave: # Кастомное поле используемое только в Remnawave
       include-proxies: true
@@ -223,6 +209,7 @@ proxy-groups:
   - name: 🎲 Случайный сервер # для выдачи случайного хоста необходимо отдавать список хостов в подписке в случайном порядке
     icon: https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/moleculer/default.svg
     type: fallback
+    exclude-filter: "🇷🇺 Moscow"
     remnawave:
       include-proxies: true
       shuffle-proxies-order: true

@@ -110,6 +110,8 @@ proxy-groups:
   - name: 🌍 VPN
     icon: https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/azure-azure-cosmos-db/default.svg
     type: select
+    url: https://captive.apple.com/generate_204
+    interval: 300
     proxies:
 
 rule-providers:
@@ -174,6 +176,18 @@ rule-providers:
     <<: *rp_domain
     url: https://github.com/Rxxich/mihomo-rule-set/raw/refs/heads/main/rule-providers/twitch-direct.mrs
     path: ./provider/rule-set/twitch-direct.mrs
+  geosite-ru-full:
+    <<: *rp_domain
+    url: https://raw.githubusercontent.com/Davoyan/mihomo-rule-sets/main/rules/category-ru.mrs
+    path: ./rule-sets/geosite-ru-full.mrs
+  geoip-for-ru:
+    <<: *rp_ipcidr
+    url: https://raw.githubusercontent.com/Davoyan/mihomo-rule-sets/main/ip-for-ru/lists/ips-for-ru.mrs
+    path: ./rule-sets/geoip-for-ru.mrs
+  youtube:
+    <<: *rp_domain
+    url: https://github.com/MetaCubeX/meta-rules-dat/raw/meta/geo/geosite/youtube.mrs
+    path: ./provider/rule-set/youtube.mrs
   ru-inline:
     type: inline
     payload:
@@ -252,4 +266,7 @@ rules:
   - RULE-SET,debian,DIRECT
   - RULE-SET,canonical,DIRECT
   - RULE-SET,python,DIRECT
+  - RULE-SET,youtube,🌍 VPN
+  - RULE-SET,geosite-ru-full,DIRECT
+  - RULE-SET,geoip-for-ru,DIRECT
   - MATCH,🌍 VPN

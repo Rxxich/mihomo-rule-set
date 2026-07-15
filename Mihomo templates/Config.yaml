@@ -242,15 +242,6 @@ rule-providers:
       - DOMAIN-SUFFIX,statichdrezka.ac
       - DOMAIN-SUFFIX,voidboost.cc
     behavior: classical
-  telemetry-battlenet:
-    type: inline
-    payload:
-      - DOMAIN-SUFFIX,telemetry-in.battle.net
-      - DOMAIN-SUFFIX,telemetry.battle.net
-      - DOMAIN-SUFFIX,bnetaccount.akamaized.net
-      - DOMAIN-SUFFIX,blzprofile.akamaized.net
-      - DOMAIN-SUFFIX,blz-contentstack-assets.akamaized.net
-    behavior: classical
   twitch-direct:
     <<: *rp_domain
     url: https://github.com/Rxxich/mihomo-rule-set/raw/refs/heads/main/rule-providers/twitch-direct.mrs
@@ -406,10 +397,6 @@ rule-providers:
     <<: *rp_domain
     url: https://github.com/Rxxich/mihomo-rule-set/raw/refs/heads/main/rule-providers/game-download_domain.mrs
     path: ./provider/rule-set/geo/geosite/game-download-domain.mrs
-  blizzard:
-    <<: *rp_domain
-    url: https://github.com/MetaCubeX/meta-rules-dat/raw/meta/geo/geosite/blizzard.mrs
-    path: ./rule-sets/blizzard.mrs
   bybit:
     <<: *rp_domain
     url: https://github.com/MetaCubeX/meta-rules-dat/raw/meta/geo/geosite/bybit.mrs
@@ -514,8 +501,6 @@ rules:
   - RULE-SET,twitch-direct,DIRECT
   - RULE-SET,twitch-ads,DIRECT
   - DOMAIN-SUFFIX,playlist.ttvnw.net,♻️ Авто VPN
-  - RULE-SET,telemetry-battlenet,DIRECT
-  - RULE-SET,blizzard,DIRECT
   - RULE-SET,bybit,DIRECT
   - RULE-SET,game-download-domain,DIRECT
 

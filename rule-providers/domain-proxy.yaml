@@ -37,6 +37,8 @@ payload:
   - DOMAIN-SUFFIX,onlyfans.com
   - DOMAIN-SUFFIX,superdupercdn.com
   - DOMAIN-SUFFIX,obrut.show
+  - DOMAIN-SUFFIX,us.cdn.blizzard.com
+  - DOMAIN-SUFFIX,blizzard.com
   - DOMAIN-KEYWORD,yummy-anime
   - DOMAIN-KEYWORD,animeportal
   - DOMAIN-KEYWORD,warcraftlogs

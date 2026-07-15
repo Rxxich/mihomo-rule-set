@@ -38,13 +38,13 @@ payload:
   - PROCESS-NAME-REGEX,(?i).*teamviewer.*
 
   # Battle.net and Blizzard
-  - PROCESS-NAME,Agent.exe
-  - PROCESS-NAME,Battle.net-Setup.exe
-  - PROCESS-NAME,Battle.net.exe
-  - PROCESS-NAME,BlizzardBrowser.exe
-  - PROCESS-NAME,Diablo IV.exe
-  - PROCESS-NAME,Hearthstone.exe
-  - PROCESS-NAME,Overwatch.exe
+  #- PROCESS-NAME,Agent.exe
+  #- PROCESS-NAME,Battle.net-Setup.exe
+  #- PROCESS-NAME,Battle.net.exe
+  #- PROCESS-NAME,BlizzardBrowser.exe
+  #- PROCESS-NAME,Diablo IV.exe
+  #- PROCESS-NAME,Hearthstone.exe
+  #- PROCESS-NAME,Overwatch.exe
   #- PROCESS-NAME,Wow.exe
   #- PROCESS-NAME,WowClassic.exe
   #- PROCESS-NAME,WowVoiceProxy.exe

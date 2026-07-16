@@ -136,8 +136,8 @@ payload:
   - PROCESS-NAME,WowClassic.exe
   - PROCESS-NAME,WowVoiceProxy.exe
 
-  - DOMAIN-SUFFIX,blizzard.com
-  - DOMAIN-SUFFIX,battle.net
+  #- DOMAIN-SUFFIX,blizzard.com
+  #- DOMAIN-SUFFIX,battle.net
 
 
   # ═══════════════════════════════════════

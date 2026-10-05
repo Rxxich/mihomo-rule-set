@@ -1,0 +1,107 @@
+# Game launchers — rule-provider для mihomo (behavior: classical)
+payload:
+  # Battle.net
+  - PROCESS-NAME,Agent.exe
+  - PROCESS-NAME,Battle.net-Setup.exe
+  - PROCESS-NAME,Battle.net.exe
+  - PROCESS-NAME,BlizzardBrowser.exe
+
+  # Steam
+  - PROCESS-NAME,steam.exe
+  - PROCESS-NAME,steamwebhelper.exe
+  - PROCESS-NAME,steamservice.exe
+  - PROCESS-NAME,steamerrorreporter.exe
+  - PROCESS-NAME,steamerrorreporter64.exe
+  - PROCESS-NAME,GameOverlayUI.exe
+  - PROCESS-NAME,SteamSetup.exe
+
+  # Epic Games Launcher
+  - PROCESS-NAME,EpicGamesLauncher.exe
+  - PROCESS-NAME,EpicWebHelper.exe
+  - PROCESS-NAME,UnrealCEFSubProcess.exe
+  - PROCESS-NAME,EOSOverlayRenderer-Win64-Shipping.exe
+
+  # EA app / Origin
+  - PROCESS-NAME,EADesktop.exe
+  - PROCESS-NAME,EABackgroundService.exe
+  - PROCESS-NAME,EACefSubProcess.exe
+  - PROCESS-NAME,EALauncher.exe
+  - PROCESS-NAME,Link2EA.exe
+  - PROCESS-NAME,Origin.exe
+  - PROCESS-NAME,OriginWebHelperService.exe
+  - PROCESS-NAME,OriginClientService.exe
+  - PROCESS-NAME,OriginThinSetupInternal.exe
+
+  # Ubisoft Connect / Uplay
+  - PROCESS-NAME,UbisoftConnect.exe
+  - PROCESS-NAME,UbisoftGameLauncher.exe
+  - PROCESS-NAME,UbisoftGameLauncher64.exe
+  - PROCESS-NAME,upc.exe
+  - PROCESS-NAME,UplayWebCore.exe
+  - PROCESS-NAME,UplayService.exe
+
+  # GOG Galaxy
+  - PROCESS-NAME,GalaxyClient.exe
+  - PROCESS-NAME,GalaxyClientService.exe
+  - PROCESS-NAME,GalaxyCommunication.exe
+  - PROCESS-NAME,GOG Galaxy Notifications Renderer.exe
+
+  # Rockstar Games Launcher
+  - PROCESS-NAME,LauncherPatcher.exe
+  - PROCESS-NAME,RockstarService.exe
+  - PROCESS-NAME,RockstarErrorHandler.exe
+  - PROCESS-NAME,SocialClubHelper.exe
+
+  # Riot Games / League of Legends
+  - PROCESS-NAME,RiotClientServices.exe
+  - PROCESS-NAME,RiotClientUx.exe
+  - PROCESS-NAME,RiotClientUxRender.exe
+  - PROCESS-NAME,RiotClientCrashHandler.exe
+  - PROCESS-NAME,LeagueClient.exe
+  - PROCESS-NAME,LeagueClientUx.exe
+  - PROCESS-NAME,LeagueClientUxRender.exe
+
+  # Xbox app / Microsoft Store (игры)
+  - PROCESS-NAME,XboxPcApp.exe
+  - PROCESS-NAME,XboxPcAppFT.exe
+  - PROCESS-NAME,XboxAppServices.exe
+  - PROCESS-NAME,GamingServices.exe
+  - PROCESS-NAME,GamingServicesNet.exe
+
+  # Wargaming Game Center / Lesta Game Center
+  - PROCESS-NAME,wgc.exe
+  - PROCESS-NAME,wgc_api.exe
+  - PROCESS-NAME,wgc_renderer_host.exe
+  - PROCESS-NAME,WargamingErrorMonitor.exe
+  - PROCESS-NAME,lgc.exe
+
+  # Bethesda Launcher
+  - PROCESS-NAME,BethesdaNetLauncher.exe
+
+  # Paradox Launcher
+  - PROCESS-NAME,Paradox Launcher.exe
+
+  # Amazon Games
+  - PROCESS-NAME,Amazon Games.exe
+
+  # HoYoPlay (Genshin, Honkai: Star Rail, ZZZ)
+  - PROCESS-NAME,HYP.exe
+
+  # Nexon / Ankama
+  - PROCESS-NAME,NexonLauncher.exe
+  - PROCESS-NAME,Ankama Launcher.exe
+
+  # itch.io
+  - PROCESS-NAME,itch.exe
+  - PROCESS-NAME,butler.exe
+
+  # Minecraft и альтернативные лаунчеры
+  - PROCESS-NAME,MinecraftLauncher.exe
+  - PROCESS-NAME,TLauncher.exe
+  - PROCESS-NAME,prismlauncher.exe
+
+  # Агрегаторы и сторонние клиенты
+  - PROCESS-NAME,Playnite.DesktopApp.exe
+  - PROCESS-NAME,Playnite.FullscreenApp.exe
+  - PROCESS-NAME,Heroic.exe
+  - PROCESS-NAME,OverwolfLauncher.exe

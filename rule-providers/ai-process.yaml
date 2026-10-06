@@ -1,0 +1,40 @@
+payload:
+  # ===== Чат-ассистенты =====
+  # ChatGPT (десктоп)
+  - PROCESS-NAME,ChatGPT.exe
+  # Claude (десктоп и Claude Code native)
+  - PROCESS-NAME,claude.exe
+  # OpenAI Codex (CLI и десктоп)
+  - PROCESS-NAME,codex.exe
+  # Perplexity
+  - PROCESS-NAME,Perplexity.exe
+
+  # ===== Редакторы и агенты для кода =====
+  # Cursor
+  - PROCESS-NAME,Cursor.exe
+  # Windsurf
+  - PROCESS-NAME,Windsurf.exe
+  # Copilot Native
+  - PROCESS-NAME,CopilotNative.exe
+  # Trae
+  - PROCESS-NAME,Trae.exe
+  # Kiro
+  - PROCESS-NAME,Kiro.exe
+  # Google Antigravity
+  - PROCESS-NAME,Antigravity.exe
+  # Zed
+  - PROCESS-NAME,Zed.exe
+  # OpenCode
+  - PROCESS-NAME,opencode.exe
+
+  # ===== Клиенты для API / мульти-модельные =====
+  # Cherry Studio
+  - PROCESS-NAME,CherryStudio.exe
+  # Chatbox
+  - PROCESS-NAME,Chatbox.exe
+  # Msty
+  - PROCESS-NAME,Msty.exe
+  # AnythingLLM
+  - PROCESS-NAME,AnythingLLM.exe
+  # Language Server
+  - PROCESS-NAME,language_server_windows_x64.exe

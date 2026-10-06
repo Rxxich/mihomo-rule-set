@@ -1,4 +1,3 @@
-# Game launchers — rule-provider для mihomo (behavior: classical)
 payload:
   # Battle.net
   - PROCESS-NAME,Agent.exe
@@ -15,13 +14,13 @@ payload:
   - PROCESS-NAME,GameOverlayUI.exe
   - PROCESS-NAME,SteamSetup.exe
 
-  # Epic Games Launcher
+  # Epic Games
   - PROCESS-NAME,EpicGamesLauncher.exe
   - PROCESS-NAME,EpicWebHelper.exe
   - PROCESS-NAME,UnrealCEFSubProcess.exe
   - PROCESS-NAME,EOSOverlayRenderer-Win64-Shipping.exe
 
-  # EA app / Origin
+  # EA App / Origin
   - PROCESS-NAME,EADesktop.exe
   - PROCESS-NAME,EABackgroundService.exe
   - PROCESS-NAME,EACefSubProcess.exe
@@ -32,7 +31,7 @@ payload:
   - PROCESS-NAME,OriginClientService.exe
   - PROCESS-NAME,OriginThinSetupInternal.exe
 
-  # Ubisoft Connect / Uplay
+  # Ubisoft Connect
   - PROCESS-NAME,UbisoftConnect.exe
   - PROCESS-NAME,UbisoftGameLauncher.exe
   - PROCESS-NAME,UbisoftGameLauncher64.exe
@@ -46,13 +45,13 @@ payload:
   - PROCESS-NAME,GalaxyCommunication.exe
   - PROCESS-NAME,GOG Galaxy Notifications Renderer.exe
 
-  # Rockstar Games Launcher
+  # Rockstar Launcher
   - PROCESS-NAME,LauncherPatcher.exe
   - PROCESS-NAME,RockstarService.exe
   - PROCESS-NAME,RockstarErrorHandler.exe
   - PROCESS-NAME,SocialClubHelper.exe
 
-  # Riot Games / League of Legends
+  # Riot Client / League Client
   - PROCESS-NAME,RiotClientServices.exe
   - PROCESS-NAME,RiotClientUx.exe
   - PROCESS-NAME,RiotClientUxRender.exe
@@ -60,48 +59,51 @@ payload:
   - PROCESS-NAME,LeagueClient.exe
   - PROCESS-NAME,LeagueClientUx.exe
   - PROCESS-NAME,LeagueClientUxRender.exe
+  - PROCESS-NAME,Riot Client.exe
 
-  # Xbox app / Microsoft Store (игры)
+  # Xbox / Microsoft Games
   - PROCESS-NAME,XboxPcApp.exe
   - PROCESS-NAME,XboxPcAppFT.exe
   - PROCESS-NAME,XboxAppServices.exe
   - PROCESS-NAME,GamingServices.exe
   - PROCESS-NAME,GamingServicesNet.exe
 
-  # Wargaming Game Center / Lesta Game Center
+  # Wargaming / Lesta Center
   - PROCESS-NAME,wgc.exe
   - PROCESS-NAME,wgc_api.exe
   - PROCESS-NAME,wgc_renderer_host.exe
   - PROCESS-NAME,WargamingErrorMonitor.exe
   - PROCESS-NAME,lgc.exe
 
-  # Bethesda Launcher
-  - PROCESS-NAME,BethesdaNetLauncher.exe
-
-  # Paradox Launcher
-  - PROCESS-NAME,Paradox Launcher.exe
-
-  # Amazon Games
-  - PROCESS-NAME,Amazon Games.exe
-
-  # HoYoPlay (Genshin, Honkai: Star Rail, ZZZ)
+  # HoYoPlay
   - PROCESS-NAME,HYP.exe
+  - PROCESS-NAME,HYPHelper.exe
+  - PROCESS-NAME,HYUpdater.exe
+  - PROCESS-NAME,ZFGameBrowser.exe
 
-  # Nexon / Ankama
+  # Tarkov / PUBG / Apex / Marvel Rivals launchers
+  - PROCESS-NAME,BsgLauncher.exe
+  - PROCESS-NAME,ExecPubg.exe
+  - PROCESS-NAME,ApexLauncher.exe
+  - PROCESS-NAME,MarvelRivals_Launcher.exe
+
+  # Other launchers and clients
+  - PROCESS-NAME,BethesdaNetLauncher.exe
+  - PROCESS-NAME,Paradox Launcher.exe
+  - PROCESS-NAME,Amazon Games.exe
   - PROCESS-NAME,NexonLauncher.exe
   - PROCESS-NAME,Ankama Launcher.exe
-
-  # itch.io
   - PROCESS-NAME,itch.exe
   - PROCESS-NAME,butler.exe
-
-  # Minecraft и альтернативные лаунчеры
   - PROCESS-NAME,MinecraftLauncher.exe
   - PROCESS-NAME,TLauncher.exe
   - PROCESS-NAME,prismlauncher.exe
-
-  # Агрегаторы и сторонние клиенты
   - PROCESS-NAME,Playnite.DesktopApp.exe
   - PROCESS-NAME,Playnite.FullscreenApp.exe
   - PROCESS-NAME,Heroic.exe
   - PROCESS-NAME,OverwolfLauncher.exe
+
+  # Additional launchers/helpers already present in games.yaml
+  - PROCESS-NAME,FortniteLauncher.exe
+  - PROCESS-NAME,MassEffectLauncher.exe
+  - PROCESS-NAME,MarsLauncher.exe

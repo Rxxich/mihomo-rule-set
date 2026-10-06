@@ -38,6 +38,9 @@ payload:
   - DOMAIN-SUFFIX,superdupercdn.com
   - DOMAIN-SUFFIX,obrut.show
   - DOMAIN-SUFFIX,docs.rw
+  - DOMAIN-SUFFIX,virustotal.com
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,bedolagam.ru
   - DOMAIN-KEYWORD,yummy-anime
   - DOMAIN-KEYWORD,animeportal
   - DOMAIN-KEYWORD,warcraftlogs
@@ -45,4 +48,6 @@ payload:
   - DOMAIN-KEYWORD,animedub
   - DOMAIN-KEYWORD,animelib
   - DOMAIN-KEYWORD,ikianime
+  - DOMAIN-KEYWORD,happ
+  - DOMAIN-KEYWORD,beyerdynamic
 

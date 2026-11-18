@@ -41,6 +41,7 @@ payload:
   - DOMAIN-SUFFIX,virustotal.com
   - DOMAIN-SUFFIX,themoviedb.org
   - DOMAIN-SUFFIX,bedolagam.ru
+  - DOMAIN-SUFFIX,pathofexile.com
   - DOMAIN-KEYWORD,yummy-anime
   - DOMAIN-KEYWORD,animeportal
   - DOMAIN-KEYWORD,warcraftlogs
